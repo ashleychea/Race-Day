@@ -10,7 +10,7 @@ const runnersAge = 45;
 if(runnersAge > 18 && registeredEarly) {
     raceNumber+=1000;
     
-// Used else if statments to allow for more than two possible outcomes. 
+// Used else if statments to allow for more than two possible outcomes. Used a string interpolation (template literal) to print out the outcome in the console when the variable runnersAge is set.
     console.log(`Runner ${raceNumber}: Your race starts at 9:30am`);
 } else if(runnersAge > 18 && !registeredEarly) {
     console.log('Your race starts at 11:00am');
